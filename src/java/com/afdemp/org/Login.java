@@ -28,7 +28,7 @@ public class Login extends AbstractController {
         //throw new UnsupportedOperationException("Not yet implemented");
         System.out.println(request.getParameter("name"));
         if(request.getParameter("name") != null) {
-            System.out.println("logged in");
+            System.out.println("logged in"); 
             sc = new StaticClass();
             sc.setUserId(1);
             ModelAndView mv = new ModelAndView("admin");
