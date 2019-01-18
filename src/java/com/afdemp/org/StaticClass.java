@@ -11,6 +11,15 @@ package com.afdemp.org;
  */
 public class StaticClass {
     static private long userId;
+    static private String jsessionid;
+
+    public String getJsessionid() {
+        return jsessionid;
+    }
+
+    public void setJsessionid(String aJsessionid) {
+        jsessionid = aJsessionid;
+    }
 
     public long getUserId() {
         return userId;

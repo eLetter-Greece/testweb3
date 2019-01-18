@@ -14,7 +14,10 @@
     </head>
     <body>
         <h1>Hello World!</h1>
-        Hello user with id : <% StaticClass sc = new StaticClass(); 
-        out.println(sc.getUserId());%>
+        Hello user with id : <% 
+            StaticClass sc = new StaticClass(); 
+            out.println("User ID:" + sc.getUserId());
+            out.println("JSESSIONID :" + sc.getJsessionid());
+        %>
     </body>
 </html>
